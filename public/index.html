@@ -1,200 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/style.css" />
     <title>Hellena Landing Page</title>
-</head>
+  </head>
 
-<body class="font-poppins">
-    <div class="relative bg-top w-full h-full bg-auto sm:bg-hellena-background sm:bg-no-repeat sm:bg-auto">
-        <div class="container">
-            <nav class="flex justify-between items-center p-5 flex-wrap sm:flex-wrap top-0">
-                <a class="flex" href="#">
-                    <img src="/public/img/svg/logo.svg" alt="" />
-                </a>
-                <button data-collapse-toggle="navbar-default" type="button"
-                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </button>
+  <body class="font-poppins">
+    <!-- <fieldset>
+      <legend>Published status</legend>
 
-                <div class="hidden w-full sm:block sm:w-auto" id="navbar-default">
-                    <div class="overflow-x-auto w-full">
-                        <div class="overflow-hidden min-w-max">
-                            <ul class="flex flex-row sm:mt-0 mt-2 sm:p-0 p-2 bg-gray-50 space-x-8">
-                                <li>
-                                    <a class="text-hellena-orange underline cursor-pointer" href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a>Features</a>
-                                </li>
-                                <li>
-                                    <a>Pricing</a>
-                                </li>
-                                <li>
-                                    <a>Rewards</a>
-                                </li>
-                                <li>
-                                    <a>Health</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden sm:flex sm:gap-x-4">
-                    <button
-                        class="sm:rounded-full sm:bg-hellena-orange sm:text-hellena-white sm:px-10 sm:py-2 hover:bg-hellena-white hover:text-hellena-orange hover:duration-300 hover:transition-all">
-                        Sign Up
-                    </button>
-                    <button
-                        class="sm:rounded-full sm:bg-hellena-white sm:px-10 sm:py-2 hover:bg-hellena-orange hover:text-hellena-white hover:duration-300 hover:transition-all">
-                        Sign In
-                    </button>
-                </div>
+      <input id="draft" class="peer/draft" type="radio" name="status" checked />
+      <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>
 
-            </nav>
+      <input id="published" class="peer/published" type="radio" name="status" />
+      <label for="published" class="peer-checked/published:text-sky-500"
+        >Published</label
+      >
 
-            <div class="mt-40 pb-60">
-                <div class="sm:w-4/12 space-y-4">
-                    <p class="text-center sm:text-left uppercase text-hellena-orange">get a better advice</p>
-                    <h1
-                        class="text-center sm:text-left text-4xl font-bold flex justify-center sm:justify-start leading-normal text-hellena-navy">
-                        Let's Find a Best Doctor Around the World
-                    </h1>
-                    <p class="sm:text-left text-center font-light text-sm text-hellena-gray leading-normal sm:w-9/12">
-                        We develop an app to allow you to improve your health better and
-                        get a life you want to live
-                    </p>
-                    <div class="flex justify-center sm:justify-start">
-                        <button
-                            class="px-5 py-2 bg-hellena-orange rounded-full text-hellena-white font-light hover:bg-hellena-white hover:text-hellena-orange hover:duration-300 hover:transition-all">
-                            Learn More
-                        </button>
-                    </div>
+      <div class="hidden peer-checked/draft:block">
+        Drafts are only visible to administrators.
+      </div>
+      <div class="hidden peer-checked/published:block">
+        Your post will be publicly visible on your site.
+      </div>
+    </fieldset> -->
+    <a href="#" class="group text-sky-600 transition duration-300">
+      Link
+      <span
+        class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"
+      ></span>
+    </a>
+    <div
+      class="relative bg-top w-full h-full bg-auto sm:bg-hellena-background sm:bg-no-repeat sm:bg-auto"
+    >
+      <div
+        class="sticky top-0 px-24 backdrop-blur-xl shadow-sm shadow-hellena-white"
+      >
+        <nav
+          class="flex justify-between items-center p-5 flex-wrap sm:flex-wrap"
+        >
+          <a class="flex" href="#">
+            <img src="/public/img/svg/logo.svg" alt="" />
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
 
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="mt-10">
-            <h5 class="uppercase text-hellena-orange font-semibold">
-                3 quick steps
-            </h5>
-            <h3 class="font-bold text-3xl">Claim Your Better Health</h3>
-            <div class="flex justify-between items-center mt-4 gap-24 sm:flex-row flex-col">
-                <div class="block p-5 text-center space-y-2">
-                    <img class="mx-auto" src="./img/svg/MINI 1.svg" alt="" />
-                    <p class="text-sm font-semibold">1. Get The Right Doctor</p>
-                    <p class="text-xs font-light">
-                        Choose the best doctor from around the world
-                    </p>
-                </div>
-                <div class="block p-5 text-center space-y-2">
-                    <img class="mx-auto" src="./img/svg/MINI 2.svg" alt="" />
-                    <p class="text-sm font-semibold">2. Follow The Insights</p>
-                    <p class="text-xs font-light">
-                        Doctor will give you the good direction that matters to your body
-                    </p>
-                </div>
-                <div class="block p-5 text-center space-y-2">
-                    <img class="mx-auto" src="./img/svg/MINI 3.svg" alt="" />
-                    <p class="text-sm font-semibold">3. Become Healthier</p>
-                    <p class="text-xs font-light">
-                        Start doing what you love again and enjoy
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-24">
-            <h5 class="uppercase text-center text-hellena-orange">
-                secure your health
-            </h5>
-            <h3 class="text-center font-bold text-3xl">Our Best Doctor</h3>
+          <div class="hidden w-full sm:block sm:w-auto" id="navbar-default">
             <div class="overflow-x-auto w-full">
-                <div class="overflow-hidden min-w-max">
-                    <div class="grid grid-cols-5 gap-x-12 text-sm font-medium mt-12">
-                        <div class="flex items-center">
-                            <img class="rounded-lg mx-auto" src="./img/meriang.png" alt="" />
-                        </div>
-                        <div class="flex items-center">
-                            <img class="rounded-lg mx-auto" src="./img/panas_dingin.png" alt="" />
-                        </div>
-                        <div class="flex items-center">
-                            <img class="rounded-lg mx-auto" src="./img/sariawan_duble.png" alt="" />
-                        </div>
-                        <div class="flex items-center">
-                            <img class="rounded-lg mx-auto" src="./img/flu_dan_diare.png" alt="" />
-                        </div>
-                        <div class="flex items-center">
-                            <img class="rounded-lg mx-auto" src="./img/meriang.png" alt="" />
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-5 gap-x-16 text-sm text-gray-700 text-center">
-                        <div class="font-bold text-lg items-center">
-                            <p>Meriang</p>
-                            <p>180 doctors available</p>
-                        </div>
-                        <div class="font-bold text-lg items-center">
-                            <p>Panas Dingin</p>
-                            <p>180 doctors available</p>
-                        </div>
-                        <div class="font-bold text-lg items-center">
-                            <p>Sariawan Duble</p>
-                            <p>180 doctors available</p>
-                        </div>
-                        <div class="font-bold text-lg items-center">
-                            <p>Flu dan Diare</p>
-                            <p>180 doctors available</p>
-                        </div>
-                        <div class="font-bold text-lg items-center">
-                            <p>Covid-19</p>
-                            <p>180 doctors available</p>
-                        </div>
-                    </div>
-
-                </div>
+              <div class="overflow-hidden min-w-max">
+                <ul
+                  class="flex flex-row sm:mt-0 mt-2 sm:p-0 p-2 bg-gray-50 space-x-8"
+                >
+                  <li
+                    class="text-hellena-orange cursor-pointer hover:transition-all hover:duration-300 border-b-2 hover:translate-x-4 peer-hover:"
+                  >
+                    <a class="" href="#">Home</a>
+                  </li>
+                  <li
+                    class="hover:transition-all hover:-translate-y-1 hover:underline-offset-4 hover:ease-in-out hover:duration-700 hover:underline"
+                  >
+                    <a class="cursor-pointer hover:text-hellena-orange" href="#"
+                      >Features</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="cursor-pointer hover:text-hellena-orange transition-all duration-150"
+                      href="#"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="cursor-pointer hover:text-hellena-orange transition-all duration-150"
+                      href="#"
+                      >Rewards</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="cursor-pointer hover:text-hellena-orange transition-all duration-150"
+                      href="#"
+                      >Health</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="hidden sm:flex sm:gap-x-4">
+            <button
+              class="sm:rounded-full sm:bg-hellena-orange sm:text-hellena-white sm:px-10 sm:py-2 hover:bg-hellena-white hover:text-hellena-orange hover:duration-300 hover:transition-all hover:scale-110 transition-all"
+            >
+              Sign Up
+            </button>
+            <button
+              class="sm:rounded-full sm:bg-hellena-white sm:px-10 sm:py-2 hover:bg-hellena-orange hover:text-hellena-white hover:transition-all hover:scale-110 hover:duration-300 ease-in-out transition"
+            >
+              Sign In
+            </button>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="mt-40 pb-60">
+          <div class="sm:w-4/12 space-y-4">
+            <p class="text-center sm:text-left uppercase text-hellena-orange">
+              get a better advice
+            </p>
+            <h1
+              class="text-center sm:text-left text-4xl font-bold flex justify-center sm:justify-start leading-normal text-hellena-navy"
+            >
+              Let's Find a Best Doctor Around the World
+            </h1>
+            <p
+              class="sm:text-left text-center font-light text-sm text-hellena-gray leading-normal sm:w-9/12"
+            >
+              We develop an app to allow you to improve your health better and
+              get a life you want to live
+            </p>
+            <div class="flex justify-center sm:justify-start">
+              <button
+                class="px-5 py-2 bg-hellena-orange rounded-full text-hellena-white font-light hover:bg-hellena-white hover:text-hellena-orange hover:duration-300 hover:transition-all"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10">
+          <h5 class="uppercase text-hellena-orange font-semibold">
+            3 quick steps
+          </h5>
+          <h3 class="font-bold text-3xl">Claim Your Better Health</h3>
+          <div
+            class="flex justify-between items-center mt-4 gap-24 sm:flex-row flex-col"
+          >
+            <div class="block p-5 text-center space-y-2">
+              <img class="mx-auto" src="./img/svg/MINI 1.svg" alt="" />
+              <p class="text-sm font-semibold pt-4">1. Get The Right Doctor</p>
+              <p class="text-xs font-light">
+                Choose the best doctor from around the world
+              </p>
+            </div>
+            <div class="block p-5 text-center space-y-2">
+              <img class="mx-auto" src="./img/svg/MINI 2.svg" alt="" />
+              <p class="text-sm font-semibold pt-4">2. Follow The Insights</p>
+              <p class="text-xs font-light">
+                Doctor will give you the good direction that matters to your
+                body
+              </p>
+            </div>
+            <div class="block p-5 text-center space-y-2">
+              <img class="mx-auto" src="./img/svg/MINI 3.svg" alt="" />
+              <p class="text-sm font-semibold pt-4">3. Become Healthier</p>
+              <p class="text-xs font-light">
+                Start doing what you love again and enjoy
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="mt-24">
-            <div class="flex sm:flex-row flex-col items-center gap-16 justify-center">
-                <div class="">
-                    <img src="./img/svg/illustration_download.svg" alt="">
+          <h5 class="uppercase text-center text-hellena-orange font-semibold">
+            secure your health
+          </h5>
+          <h3 class="text-center font-bold text-3xl">Our Best Doctor</h3>
+          <div class="overflow-x-auto w-full">
+            <div class="overflow-hidden min-w-max">
+              <div class="grid grid-cols-5 gap-x-12 text-sm font-medium mt-12">
+                <div class="flex items-center">
+                  <img
+                    class="rounded-lg mx-auto"
+                    src="./img/meriang.png"
+                    alt=""
+                  />
                 </div>
-                <div class="space-y-4 items-center text-center sm:text-left">
-                    <h5 class="uppercase text-hellena-orange">
-                        secure your health
-                    </h5>
-                    <h3 class="font-bold text-3xl">Download our app</h3>
-                    <p class="text-base font-normal text-hellena-gray">
-                        We develop an app to allow you to improve <br /> your health better in the great way
-                    </p>
-                    <div class="flex flex-row gap-6 flex-wrap justify-center sm:justify-start">
-                        <img src="./img/app_store.png" alt="">
-                        <img src="./img/play_store.png" alt="">
-                    </div>
-
+                <div class="flex items-center">
+                  <img
+                    class="rounded-lg mx-auto"
+                    src="./img/panas_dingin.png"
+                    alt=""
+                  />
                 </div>
+                <div class="flex items-center">
+                  <img
+                    class="rounded-lg mx-auto"
+                    src="./img/sariawan_duble.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center">
+                  <img
+                    class="rounded-lg mx-auto"
+                    src="./img/flu_dan_diare.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex items-center">
+                  <img
+                    class="rounded-lg mx-auto"
+                    src="./img/meriang.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="grid grid-cols-5 gap-x-16 text-sm text-gray-700 text-center"
+              >
+                <div class="font-bold text-lg items-center">
+                  <p>Meriang</p>
+                  <p class="font-normal text-base">180 doctors available</p>
+                </div>
+                <div class="font-bold text-lg items-center">
+                  <p>Panas Dingin</p>
+                  <p class="font-normal text-base">180 doctors available</p>
+                </div>
+                <div class="font-bold text-lg items-center">
+                  <p>Sariawan Duble</p>
+                  <p class="font-normal text-base">180 doctors available</p>
+                </div>
+                <div class="font-bold text-lg items-center">
+                  <p>Flu dan Diare</p>
+                  <p class="font-normal text-base">180 doctors available</p>
+                </div>
+                <div class="font-bold text-lg items-center">
+                  <p>Covid-19</p>
+                  <p class="font-normal text-base">180 doctors available</p>
+                </div>
+              </div>
             </div>
-
+          </div>
         </div>
+
+        <div class="mt-24">
+          <div
+            class="flex sm:flex-row flex-col items-center gap-16 justify-center"
+          >
+            <img src="./img/svg/illustration_download.svg" alt="" />
+
+            <div class="space-y-4 items-center text-center sm:text-left">
+              <h5 class="uppercase text-hellena-orange font-semibold">
+                secure your health
+              </h5>
+              <h3 class="font-bold text-3xl">Download our app</h3>
+              <p class="text-base font-normal text-hellena-gray">
+                We develop an app to allow you to improve <br />
+                your health better in the great way
+              </p>
+              <div
+                class="flex flex-row gap-6 flex-wrap justify-center sm:justify-start"
+              >
+                <img src="./img/app_store.png" alt="" />
+                <img src="./img/play_store.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-</body>
-
+  </body>
 </html>
