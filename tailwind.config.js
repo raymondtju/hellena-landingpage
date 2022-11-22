@@ -10,8 +10,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hellena-background': "url('@/public/img/svg/illustration.svg')",
-        'hellena-logo': "url('@/public/img/svg/logo.svg)"
+        'hellena-background': "url('/img/svg/illustration.svg')",
+        'hellena-logo': "url('/img/svg/logo.svg)"
       }
     },
     fontFamily: {

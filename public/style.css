@@ -998,7 +998,7 @@ video {
   }
 
   .md\:bg-hellena-background{
-    background-image: url('@/public/img/svg/illustration.svg');
+    background-image: url('/img/svg/illustration.svg');
   }
 
   .md\:bg-auto{
