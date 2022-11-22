@@ -5,6 +5,9 @@ module.exports = {
     "./public/**/*.{html,js}",
   ],
   theme: {
+    screens: {
+      'md': '1150px'
+    },
     extend: {
       backgroundImage: {
         'hellena-background': "url('/public/img/svg/illustration.svg')",
